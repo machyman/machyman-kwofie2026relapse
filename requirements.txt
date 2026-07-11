@@ -1,0 +1,9 @@
+# Python dependencies (versions used to produce the figures in the paper).
+# Newer patch releases are generally compatible; these are the tested versions.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+sympy==1.14.0
+
+# For running the test suite:
+pytest>=7.0

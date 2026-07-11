@@ -1,0 +1,52 @@
+{
+  "n_samples": 1000,
+  "seed": 42,
+  "n_boot": 200,
+  "response": "g* at the high-prevalence equilibrium E_+",
+  "frac_positive": 1.0,
+  "mean_gstar": 0.44981446698678373,
+  "results": [
+    {
+      "parameter": "gamma",
+      "prcc": -0.9765127571259345,
+      "ci_lo": -0.9809169537357141,
+      "ci_hi": -0.9676653548079203,
+      "significant": true
+    },
+    {
+      "parameter": "beta_rg",
+      "prcc": 0.9761795877334313,
+      "ci_lo": 0.9677926547205793,
+      "ci_hi": 0.9810235840778972,
+      "significant": true
+    },
+    {
+      "parameter": "beta_sg",
+      "prcc": 0.16692041977219224,
+      "ci_lo": 0.10296222203975214,
+      "ci_hi": 0.23822310112718836,
+      "significant": true
+    },
+    {
+      "parameter": "eps",
+      "prcc": -0.05914925508830548,
+      "ci_lo": -0.11636371989542427,
+      "ci_hi": 0.005673735583022066,
+      "significant": false
+    },
+    {
+      "parameter": "eta",
+      "prcc": 0.018009193975101603,
+      "ci_lo": -0.0361580145256318,
+      "ci_hi": 0.07039501074436955,
+      "significant": false
+    },
+    {
+      "parameter": "beta_rs",
+      "prcc": -0.00459979799897375,
+      "ci_lo": -0.05790383623367873,
+      "ci_hi": 0.061059799689065816,
+      "significant": false
+    }
+  ]
+}

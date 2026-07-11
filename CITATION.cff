@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper below."
+title: "Reproducibility code for: Relapse-Driven Bistability in a Nonlinear Model of Gang Dynamics with Deterrence and Reformed-Led Advocacy"
+type: software
+authors:
+  - given-names: Theophilus
+    family-names: Kwofie
+    affiliation: "School of Mathematical and Statistical Sciences, Arizona State University, Tempe, AZ, USA"
+  - given-names: Lucero
+    family-names: "Rodriguez Rodriguez"
+    affiliation: "Fred Hutchinson Cancer Center, University of Washington, Seattle, WA, USA"
+  - given-names: Xia
+    family-names: Wang
+    affiliation: "School of Criminology and Criminal Justice, Arizona State University, USA"
+  - given-names: "James M."
+    family-names: Hyman
+    affiliation: "Department of Mathematics, Tulane University, New Orleans, LA, USA"
+    orcid: "https://orcid.org/0000-0001-9183-5686"
+  - given-names: Yun
+    family-names: Kang
+    affiliation: "College of Integrative Sciences and Arts, Arizona State University, Tempe, AZ, USA"
+repository-code: "https://github.com/machyman/kwofie2026relapse"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-04"
+keywords:
+  - gang dynamics
+  - backward bifurcation
+  - bistability
+  - compartmental model
+  - sensitivity analysis
+  - PRCC
+preferred-citation:
+  type: article
+  title: "Relapse-Driven Bistability in a Nonlinear Model of Gang Dynamics with Deterrence and Reformed-Led Advocacy"
+  authors:
+    - given-names: Theophilus
+      family-names: Kwofie
+    - given-names: Lucero
+      family-names: "Rodriguez Rodriguez"
+    - given-names: Xia
+      family-names: Wang
+    - given-names: "James M."
+      family-names: Hyman
+    - given-names: Yun
+      family-names: Kang
+  journal: "Mathematical Biosciences and Engineering"
+  year: 2026
+  notes: "Manuscript MBE-8616 (in revision). Update volume/pages/DOI at acceptance."

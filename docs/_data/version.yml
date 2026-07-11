@@ -1,0 +1,5 @@
+# Sync indicator — OVERWRITTEN by .github/workflows/pages.yml at build time.
+# Committed so the site renders locally; the deployed value is authoritative.
+commit: "local-build"
+built: "not-yet-deployed"
+manuscript_version: "v2_17_0"
