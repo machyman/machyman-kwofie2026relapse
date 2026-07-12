@@ -33,10 +33,10 @@ Should the gang disappear?
 
 ## The model
 
-People are susceptible ($s$), active in a gang ($g$), or reformed ($r$), with
-$s + g + r = 1$. They are recruited, they reform, and — crucially — they can
+People are susceptible ($$s$$), active in a gang ($$g$$), or reformed ($$r$$), with
+$$s + g + r = 1$$. They are recruited, they reform, and — crucially — they can
 **relapse** from the reformed class back into the gang. Recruitment is damped by
-perceived-risk deterrence ($\epsilon$) and by reformed-led advocacy ($\eta$):
+perceived-risk deterrence ($$\epsilon$$) and by reformed-led advocacy ($$\eta$$):
 
 $$
 \frac{ds}{dt} = \mu - \frac{\beta_{sg}\, s\, g}{D} + \beta_{rs}\, r\, s - \mu s,
@@ -50,17 +50,17 @@ $$
 D = 1 + \eta\, r\, s + \epsilon\, g .
 $$
 
-The invasion threshold is $\mathcal{R}_0^{\rm simp} = \beta_{sg}/(\mu + \gamma)$.
+The invasion threshold is $$\mathcal{R}_0^{\rm simp} = \beta_{sg}/(\mu + \gamma)$$.
 
 ## The result
 
-When relapse is strong enough, the bifurcation at $\mathcal{R}_0^{\rm simp} = 1$
+When relapse is strong enough, the bifurcation at $$\mathcal{R}_0^{\rm simp} = 1$$
 turns **backward**. A stable gang-free state and a stable high-gang state then
 coexist *below* the threshold, separated by a saddle whose stable manifold is the
 basin boundary.
 
 At the paper's illustrative parameters the bistable window spans an order of
-magnitude — roughly $0.09 < \mathcal{R}_0^{\rm simp} < 1$. Inside it, **whether the
+magnitude — roughly $$0.09 < \mathcal{R}_0^{\rm simp} < 1$$. Inside it, **whether the
 gang persists depends on where the community starts, not only on the parameters.**
 
 > **Reducing recruitment below the invasion threshold is not sufficient to eliminate
@@ -73,10 +73,10 @@ the answer does not depend on the initial condition) gives a clear ranking:
 
 | Parameter | PRCC | Reading |
 |:--|--:|:--|
-| Reformation $\gamma$ | $-0.98$ | Dominant, suppressive |
-| Relapse $\beta_{rg}$ | $+0.98$ | Dominant, driving |
-| Recruitment $\beta_{sg}$ | $+0.17$ | Smaller positive driver |
-| Deterrence $\epsilon$, reintegration $\beta_{rs}$, advocacy $\eta$ | $\approx 0$ | Not resolved at the equilibrium |
+| Reformation $$\gamma$$ | $$-0.98$$ | Dominant, suppressive |
+| Relapse $$\beta_{rg}$$ | $$+0.98$$ | Dominant, driving |
+| Recruitment $$\beta_{sg}$$ | $$+0.17$$ | Smaller positive driver |
+| Deterrence $$\epsilon$$, reintegration $$\beta_{rs}$$, advocacy $$\eta$$ | $$\approx 0$$ | Not resolved at the equilibrium |
 
 Relapse and reformation are **co-dominant and opposite in sign** — the established
 gang is held in place by the balance between them, which is the same mechanism that
@@ -125,7 +125,7 @@ sgrValidate();          % 10/10 checks against the published values
 ```
 
 The two implementations are checked against each other on a shared sampling design:
-they agree to $3 \times 10^{-11}$ on the PRCC values and $4 \times 10^{-13}$ on the
+they agree to $$3 \times 10^{-11}$$ on the PRCC values and $$4 \times 10^{-13}$$ on the
 equilibria.
 
 ---
